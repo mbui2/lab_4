@@ -30,4 +30,13 @@
             name="last_name_field"
             placeholder="Type last name"
           />
+        </div> 
+		<div class="phone-num">
+          <label for="phone">Phone Number:</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone_field"
+            placeholder="Enter Phone Number"
+          />
         </div>
