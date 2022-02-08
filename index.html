@@ -69,3 +69,47 @@
           </select>
         </div>
       </fieldset>
+	  <fieldset>
+        <legend><b>My Availability</b></legend>
+        <label>Days Available</label>
+        <div class="sunday-availability">
+          <input type="checkbox" id="sunday_checkbox" name="available_field[]" value="Sunday" />
+          <label for="sunday_checkbox">Sunday</label>
+        </div>
+        <div class="monday-availability">
+          <input type="checkbox" id="monday_checkbox" name="available_field[]" value="Monday" />
+          <label for="monday_checkbox">Monday</label>
+        </div>
+        <div class="tuesday-availability">
+          <input type="checkbox" id="tuesday_checkbox" name="available_field[]" value="Tuesday" />
+          <label for="tuesday_checkbox">Tuesday</label>
+        </div>
+        <div class="wenesday-availability">
+          <input type="checkbox" id="wenesday_checkbox" name="available_field[]" value="Wenesday" />
+          <label for="wenesday_checkbox">Wenesday</label>
+        </div>
+        <div class="thursday-availability">
+          <input type="checkbox" id="thursday_checkbox" name="available_field[]" value="Thursday" />
+          <label for="thursday_checkbox">Thursday</label>
+        </div>
+        <div class="friday-availability">
+          <input type="checkbox" id="friday_checkbox" name="available_field[]" value="Friday" />
+          <label for="friday_checkbox">Friday</label>
+        </div>
+        <div class="saturday-availability">
+          <input type="checkbox" id="saturday_checkbox" name="available_field[]" value="Saturday" />
+          <label for="saturday_checkbox">Saturday</label>
+        </div>
+        <p>Any Comments?</p>
+        <textarea
+          name="comments_field"
+          cols="30"
+          rows="10"
+          placeholder="Type Comment here..."
+        ></textarea>
+      </fieldset>
+      <button type="submit">Submit My Results!</button>
+      <input type="hidden" name="hidden_field" value="mbui2" />
+    </form>
+  </body>
+</html>
